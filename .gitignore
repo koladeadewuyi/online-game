@@ -18,7 +18,8 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-.idea/**/workspace.xml
+.idea
+*.iml
 .idea/**/tasks.xml
 .idea/dictionaries
 
@@ -29,12 +30,8 @@
 .idea/**/dataSources.local.xml
 .idea/**/sqlDataSources.xml
 .idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-
 # Gradle:
 .idea/**/gradle.xml
-.idea/**/libraries
-
 # CMake
 cmake-build-debug/
 cmake-build-release/
