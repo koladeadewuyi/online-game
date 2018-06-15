@@ -33,7 +33,7 @@ class AppSpec extends TestFixture {
 
         App.main(args)
 
-//        contentsOfFile(rddOutputFilePath) should contain theSameElementsAs winners
+        contentsOfFile(rddOutputFilePath) should contain theSameElementsAs winners
         contentsOfFile(dfOutputFilePath) should contain theSameElementsAs winners
       }
     }
