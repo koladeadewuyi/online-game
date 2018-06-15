@@ -3,7 +3,7 @@ package com.db.exercise
 import java.io.{File, PrintWriter}
 import java.text.DecimalFormat
 
-import com.db.exercise.model.{PlayerScore, PlayerTeam, Winner, TeamsAlias, ScoresAlias}
+import com.db.exercise.model._
 import org.apache.spark.sql.catalyst.ScalaReflection
 import org.apache.spark.sql.expressions.Window
 import org.apache.spark.sql.functions._
